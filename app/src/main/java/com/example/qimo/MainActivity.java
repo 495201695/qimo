@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                     if(username.equals("cjx")&& password.equals("123")){
                         Toast.makeText(MainActivity.this,"登录成功",Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(MainActivity.this,Main2Activity.class);
-                        intent.putExtra("ttt",username);
+                        intent.putExtra("cjx",username);
                         startActivity(intent);
 
                     }else{
